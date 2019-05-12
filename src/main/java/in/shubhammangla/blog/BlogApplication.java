@@ -1,4 +1,4 @@
-package in.shubhammangla.blog.Blog;
+package in.shubhammangla.blog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

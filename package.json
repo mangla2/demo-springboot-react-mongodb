@@ -1,0 +1,43 @@
+{
+  "name": "techblog",
+  "version": "1.0.0",
+  "description": "A blog providing the users a plethora of articles on my daily work",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode development",
+    "watch": "webpack --watch -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mangla2/techblog.git"
+  },
+  "keywords": [
+    "springboot",
+    "react",
+    "blog",
+    "portfolio"
+  ],
+  "author": "Shubham Mangla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mangla2/techblog/issues"
+  },
+  "homepage": "https://github.com/mangla2/techblog#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.31.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
